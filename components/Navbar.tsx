@@ -1,6 +1,8 @@
 import Link from "next/link";
 
+
 export default function Navbar() {
+
   return (
     <div className="bg-neutral-800">
       <nav className="container py-2 mx-auto">
@@ -34,3 +36,4 @@ const NavLink = ({ href, children }: NavLink) => {
     </Link>
   );
 };
+
